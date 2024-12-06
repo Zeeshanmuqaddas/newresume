@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #6658e4;
+    color: #333;
+  }
+  
+  .resume-container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #18eb70;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 20px;
+  }
+  
+  .profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .personal-info h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #04386e;
+    margin-bottom: 10px;
+  }
+  
+  .personal-info .title {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 500;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .about, .experience, .education, .skills {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #150227;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .job, .degree {
+    margin-bottom: 15px;
+  }
+  
+  .job h3, .degree h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #082542;
+  }
+  
+  .job p, .degree p {
+    color: #0c0e85;
+    font-size: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 1rem;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    color: #370f77;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #240775;
+    margin-top: 50px;
+  }
+  
+  /* Styling for Links */
+  a:hover {
+    color: #200668;
+    text-decoration: underline;
+  }
+  
